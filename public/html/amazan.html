@@ -10,29 +10,96 @@
         <div class="grid-container  "> 
             <header class="header">
                 <div class="brand">
+                    <button onclick="openMenu">
+                        &#9776;
+                    </button>
                 <a href=<"amazan.html">amazn</a>
                       </div>
             <div class="header-links">
             <a href="cart.html">Cart</a>    
-            <a href="signin">SignIn  </a>   
+            <a href="signin.html">SignIn  </a>   
             </div>
             </header>
-            <aside>
-                Shopping categories
-            </aside>
-            <main>
+            <aside class="sidebar">
+                <h3>Shopping Categories</h3>
                 <ul>
-                <li>Product1</li>
-                <li>Product2</li>
-                <li>Product3</li>
-                <li>Product4</li>
-                <li>Product5</li>
+                    <li>
+                        <a href="index.html">Pants</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Shirt</a>
+                    </li>
                 </ul>
+            </aside>
+        
+            <main class="main">
+                <div class= "content">
+                <ul class="products">
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/d1.jpg" alt ="product">
+                            <div class="product-name">
+                            <a href="product.html">Slim Shirt</a>
+                        </div>
+                        <div class="product-brand">Nike</div>
+                        <div class="product-price">60$</div>
+                        <div class="product-rating">4.5 Stars(10Reiviews)</div>
+
+                    </div>
+     
+                    </li>
+                    
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/d1.jpg" alt ="product">
+                            <div class="product-name">
+                            <a href="product.html">Slim Shirt</a>
+                        </div>
+                        <div class="product-brand">Nike</div>
+                        <div class="product-price">60$</div>
+                        <div class="product-rating">4.5 Stars(10Reiviews)</div>
+
+                    </div>
+     
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/d1.jpg" alt ="product">
+                            <div class="product-name">
+                            <a href="product.html">Slim Shirt</a>
+                        </div>
+                        <div class="product-brand">Nike</div>
+                        <div class="product-price">60$</div>
+                        <div class="product-rating">4.5 Stars(10Reiviews)</div>
+
+                    </div>
+     
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/d1.jpg" alt ="product">
+                            <div class="product-name">
+                            <a href="product.html">Slim Shirt</a>
+                        </div>
+                        <div class="product-brand">Nike</div>
+                        <div class="product-price">60$</div>
+                        <div class="product-rating">4.5 Stars(10Reiviews)</div>
+
+                    </div>
+     
+                    </li>
+                </ul>
+                
             </main>
             <footer class="footer">
                 All right reserved.
 
             </footer>
         </div>
+        <script>
+            function openMenu(){
+                document.querySelector(".sidebar").classList.add(classopen)
+            }
+        </script>
     </body>
 </html>
